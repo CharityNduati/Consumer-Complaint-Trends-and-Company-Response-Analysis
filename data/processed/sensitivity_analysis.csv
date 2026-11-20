@@ -1,0 +1,5 @@
+,records,H1 tau,H1 slope/month,H2 V (product x year),H3 eps2 (channel),H4 V (response x product),H5 V (timely x year),H5 not-timely % in 2021,H6 V (response x year)
+All records,62516.0,0.5922,8.2432,0.0875,0.3639,0.2109,0.2089,10.9786,0.0491
+Near-duplicates removed,61022.0,0.5901,7.8065,0.0855,0.3627,0.2103,0.207,10.8068,0.0491
+July 2023 excluded,60767.0,0.581,7.9344,0.0866,0.3627,0.2122,0.2123,10.9786,0.0499
+Both removed,59338.0,0.5788,7.541,0.0845,0.3616,0.2115,0.2105,10.8068,0.05

@@ -1,0 +1,14 @@
+hypothesis,test,statistic,p_value,effect_size,conclusion,significant_at_0.05,significant_after_Bonferroni_(0.0083)
+H1,"Kendall tau trend, 75 monthly counts",tau = 0.59,6.045415444635322e-14,Theil-Sen slope +8.2/month (block-bootstrap 95% CI +5.6 to +10.7),Reject H0: upward trend,True,True
+H1,"Kruskal-Wallis, monthly counts 2018-2022",H = 44.4,5.305012608659154e-09,epsilon-squared = 0.75 (large),Reject H0: years differ,True,True
+H1,"Kruskal-Wallis, seasonality (calendar month)",H = 12.4,0.3356495486074643,detrended ratios,Seasonality not significant,False,False
+H2,Chi-square: product group x year,"chi2 = 2,871, df = 36",0.0,Cramer's V = 0.087 (small effect),Reject H0: product mix changed (small effect),True,True
+H3a,Kruskal-Wallis: forwarding days by product,H = 1508,0.0,epsilon-squared = 0.0241 (small),"Significant, but small effect",True,True
+H3b,Kruskal-Wallis: forwarding days by channel,H = 22750,0.0,epsilon-squared = 0.364 (large); Referral vs Web P(>) = 0.83,Reject H0: channel matters (large effect),True,True
+H3c,Kruskal-Wallis: forwarding days by year,H = 1653,0.0,epsilon-squared = 0.0264 (small),"Significant, small effect; channel mix is a competing explanation",True,True
+H4a,Chi-square: response category x product,"chi2 = 5,426, df = 12",0.0,Cramer's V = 0.211 (small effect),Reject H0: small-to-medium association (V sits at the 0.21 'medium' cut-off),True,True
+H4b,Chi-square: response category x top-10 issues,"chi2 = 5,735, df = 18",0.0,Cramer's V = 0.267 (medium effect),"Reject H0 (issue and product overlap, so partly the same signal)",True,True
+H4c,Chi-square: response x top-5 issues within checking/savings,"chi2 = 1,733, df = 8",0.0,Cramer's V = 0.190 (small effect),Association persists within a single product,True,True
+H5,Chi-square: timeliness x year,"chi2 = 2,663, df = 6",0.0,Cramer's V = 0.209 (small effect),Reject H0: not-timely share changed,True,True
+H6,Chi-square: response category x year,"chi2 = 294, df = 12",6.87836990299726e-56,Cramer's V = 0.049 (negligible effect),"Reject H0 statistically, but negligible-to-small effect",True,True
+H6b,Kendall tau: monthly monetary-relief share,tau = -0.17,0.03120163463166318,monotonic trend,Weak downward drift; not significant after Bonferroni,True,False

@@ -1,0 +1,6 @@
+Records: 62,516
+Trend (Kendall tau): 0.59; Theil-Sen slope +8.2/month
+Product x year Cramer's V: 0.087
+Response x product Cramer's V: 0.211
+Not timely x year Cramer's V: 0.209
+Raw file SHA-256: 4ea648e8df464f0db3a1137f52bc299bc5bdf41ce437873df99922b5161a1080
